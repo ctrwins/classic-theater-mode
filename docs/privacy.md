@@ -1,40 +1,27 @@
-# Datenschutzerklärung – Classic Theater Mode for YouTube
+# Privacy Policy — Classic Theater Mode for YouTube
 
-**Stand: 08.10.2026 · Version 0.1.1**
+Last updated: October 8, 2026.
 
-## Kurzfassung
+## Data handled by the extension
 
-Classic Theater Mode for YouTube korrigiert ausgewählte YouTube-Layoutflags lokal, damit die klassische Watch-Layout-/Theater-Auswahl wieder verwendet werden kann. Die Erweiterung verarbeitet keine Kontodaten und sendet keine Daten an den Entwickler oder an Dritte.
+Classic Theater Mode for YouTube adjusts YouTube's layout settings locally in your browser. The extension does not collect, store, transmit, sell or share personal data. It does not read account information, login credentials, browsing or viewing history, or cookies. It uses no analytics, tracking, advertising or external network requests.
 
-## Welche Daten werden verarbeitet?
+## Site access and local operation
 
-- **Keine Erhebung:** keine Namen, E-Mail-Adressen, Kennungen, IP-Adressen, URLs als Nutzungsprotokoll, Such-/Wiedergabeverläufe oder sonstigen personenbezogenen Daten.
-- **Keine Cookies oder Speicherprofile:** Die Erweiterung liest oder schreibt keine Cookies und speichert keine Nutzungsdaten.
-- **Lokale Seitenänderung:** Das Content Script läuft ausschließlich auf passenden `https://www.youtube.com/*`-Seiten und ändert dort die für das Layout relevanten JavaScript-Konfigurationswerte im Seitenkontext. Diese Änderung ist eine lokale Laufzeitaktion; daraus wird kein Datensatz erstellt oder übertragen.
-- **Keine Übermittlung:** keine Analytics, kein Tracking, keine Werbung, keine externen Requests und keine Weitergabe an Dritte.
+Access is limited to top-level pages on `https://www.youtube.com/*`. The extension changes layout configuration in the page's JavaScript context before the page initializes. These settings remain in the page's memory; no usage record is created or sent to the publisher. All executable code is included in the extension package; no remote scripts are downloaded.
 
-## Berechtigungen und Reichweite
+## Retention and removal
 
-Der YouTube-Hostzugriff ist erforderlich, damit der Browser das Content Script auf YouTube bei `document_start` ausführen kann. Die Erweiterung benötigt keine weiteren API-Berechtigungen und hat kein Popup.
+The extension stores no user data, so there is no extension-related server-side retention or deletion process. Disable or uninstall the extension and reload YouTube to stop its changes.
 
-## Code und Sicherheit
+## Email support
 
-Der gesamte ausführbare Code liegt im Erweiterungspaket. Es werden keine Remote-Skripte, Remote-Imports oder nachgeladenen ausführbaren Inhalte verwendet. Das Script läuft in der MV3-`MAIN`-Welt, um die Seitenkonfiguration zu ändern; es liest keine Login- oder Kontodaten. Bei Änderungen am Datenfluss wird diese Erklärung entsprechend aktualisiert.
+If you contact the publisher by email, the information you voluntarily provide, including your email address and message, is used to respond to your request. This happens separately from the extension. Contact the address below with questions about your correspondence or privacy.
 
-## Aufbewahrung, Löschung, Kontakt
+## Third-party services
 
-Die Erweiterung erhebt oder speichert keine Nutzerdaten; für sie gibt es daher keine serverseitige Aufbewahrung oder Löschung.
+This policy covers the extension and its support contact. YouTube, GitHub and the email provider operate under their own privacy policies; the extension does not change their data practices.
 
-**Kontakt für Datenschutz und Support:** [ctrwins@googlemail.com](mailto:ctrwins@googlemail.com)
+## Contact
 
-Bei einer Kontaktaufnahme per E-Mail werden die freiwillig übermittelten Angaben zur Bearbeitung der Anfrage verwendet. Das ist unabhängig von der Erweiterung. Die eigenen Datenverarbeitungen von YouTube, GitHub und dem E-Mail-Anbieter sind nicht Gegenstand dieser Erklärung.
-
-Öffentliche URL: https://github.com/ctrwins/classic-watch-layout/blob/main/docs/privacy.md
-
-## Chrome-Web-Store-Angaben
-
-Die Angaben im Entwickler-Dashboard müssen mit dem veröffentlichten Paket übereinstimmen. Dazu gehören Zweck, Berechtigungen und Datennutzung. Quellen: [Privacy practices](https://developer.chrome.com/docs/webstore/cws-dashboard-privacy) und [User Data FAQ](https://developer.chrome.com/docs/webstore/program-policies/user-data-faq).
-
-## English summary
-
-Classic Theater Mode for YouTube locally adjusts selected YouTube layout flags to restore the classic watch/theater layout. It does **not** collect, store, sell, or share personal data; it does not read or write cookies; it has no analytics, tracking, advertising, remote scripts, or external network requests. The only required site access is `https://www.youtube.com/*`, used to run the MV3 content script at document start. The script changes layout configuration locally and does not transmit page, account, or viewing data. Privacy and support contact: ctrwins@googlemail.com. If you contact support by email, the information you voluntarily provide is used to respond to your request, separately from the extension. YouTube, GitHub and the email provider have their own data practices.
+Publisher: ctrwins. Privacy and support: [ctrwins@googlemail.com](mailto:ctrwins@googlemail.com).

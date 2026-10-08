@@ -1,6 +1,7 @@
 {
   "name": "classic-theater-mode-for-youtube",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": { "test": "node --test tests/*.test.mjs", "test:browser": "node tests/browser.mjs" },

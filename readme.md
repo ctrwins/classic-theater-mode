@@ -10,7 +10,7 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ### Alternative: manual installation
 
-[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.1/classic-theater-mode-for-youtube-0.1.1.zip)
+[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.2/classic-theater-mode-for-youtube-0.1.2.zip)
 
 1. Download and extract the ZIP file.
 2. Open `chrome://extensions` or `brave://extensions`, enable **Developer mode**, and click **Load unpacked**.
@@ -24,4 +24,8 @@ To undo the changes, disable or remove the extension and reload YouTube.
 
 Not affiliated with YouTube or Google. Results may vary depending on your account and YouTube's current layout.
 
-[Development and tests](docs/development.md) · [Store setup](docs/store-setup.md). No open-source license has been selected yet.
+## License
+
+The project code and original assets are licensed under the [MIT License](LICENSE). You may use, modify, fork and redistribute them, including commercially, provided you retain the copyright and license notices.
+
+Third-party content and trademarks shown in screenshots remain the property of their respective owners and are not covered by this license.

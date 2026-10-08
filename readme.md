@@ -4,22 +4,22 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ## Installation
 
-**Chrome Web Store: noch nicht verfügbar.** Sobald die Erweiterung veröffentlicht ist, findest du hier den direkten Installationslink.
+**Chrome Web Store: not available yet.** A direct installation link will be added here once the extension is published.
 
-### Alternativ: manuell installieren
+### Alternative: manual installation
 
 [![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.0/classic-watch-layout-0.1.0.zip)
 
-1. ZIP herunterladen und entpacken.
-2. `chrome://extensions` oder `brave://extensions` öffnen, **Entwicklermodus** aktivieren und **Entpackte Erweiterung laden** wählen.
-3. Den entpackten Ordner mit `manifest.json` auswählen und YouTube neu laden.
+1. Download and extract the ZIP file.
+2. Open `chrome://extensions` or `brave://extensions`, enable **Developer mode**, and click **Load unpacked**.
+3. Select the extracted folder containing `manifest.json`, then reload YouTube.
 
-Zum Entfernen die Erweiterung deaktivieren oder löschen und YouTube neu laden.
+To undo the changes, disable or remove the extension and reload YouTube.
 
-## Kontakt
+## Contact
 
-[Fehler melden](https://github.com/ctrwins/classic-watch-layout/issues) · [E-Mail](mailto:ctrwins@googlemail.com) · [Datenschutz](docs/privacy.md)
+[Report an issue](https://github.com/ctrwins/classic-watch-layout/issues) · [Email](mailto:ctrwins@googlemail.com) · [Privacy policy](docs/privacy.md)
 
-Unabhängig von YouTube und Google. Die Funktion kann je nach Konto und YouTube-Version abweichen.
+Not affiliated with YouTube or Google. Results may vary depending on your account and YouTube's current layout.
 
-[Entwicklung und Tests](docs/development.md) · [Store-Einrichtung](docs/store-setup.md). Eine Open-Source-Lizenz ist noch nicht festgelegt.
+[Development and tests](docs/development.md) · [Store setup](docs/store-setup.md). No open-source license has been selected yet.

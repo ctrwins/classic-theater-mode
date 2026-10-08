@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Classic Watch Layout",
+  "version": "0.1.0",
+  "minimum_chrome_version": "111",
+  "description": "Experimental: selects YouTube's classic watch layout and restores the normal theater-mode choice. No tracking.",
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["restore.js"],
+    "run_at": "document_start",
+    "world": "MAIN",
+    "all_frames": false
+  }]
+}

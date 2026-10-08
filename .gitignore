@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+research/
+dist/
+.local/
+.env
+.env.*
+*.log
+__pycache__/

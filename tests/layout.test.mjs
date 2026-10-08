@@ -113,3 +113,17 @@ test('manifest grants only a top-frame YouTube document-start script, no APIs', 
     assert.equal(manifest[name], undefined, name);
   }
 });
+
+test('manifest icons reference PNG files at the declared sizes', () => {
+  const manifest = JSON.parse(fs.readFileSync(new URL('../extension/manifest.json', import.meta.url)));
+  assert.ok(manifest.icons, 'manifest must declare icons');
+  assert.deepEqual(Object.keys(manifest.icons), ['16', '32', '48', '128']);
+  for (const [size, file] of Object.entries(manifest.icons)) {
+    const png = fs.readFileSync(new URL(`../extension/${file}`, import.meta.url));
+    assert.equal(png.subarray(0, 8).toString('hex'), '89504e470d0a1a0a', file);
+    assert.equal(png.subarray(12, 16).toString('ascii'), 'IHDR', file);
+    assert.equal(png.readUInt32BE(16), Number(size), `${file}: width`);
+    assert.equal(png.readUInt32BE(20), Number(size), `${file}: height`);
+    assert.equal(png[25], 6, `${file}: RGBA transparency`);
+  }
+});

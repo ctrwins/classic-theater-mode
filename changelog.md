@@ -9,3 +9,4 @@
 - Automatisierte Konfigurationstests und Browsertests in einem temporären Brave-Profil.
 - Optionales Live-Diagnosewerkzeug mit dokumentierten Einschränkungen.
 - Installationsanleitung, Datenschutzentwurf und Store-Checkliste.
+- Kino-Icon in 16, 32, 48 und 128 Pixeln sowie eine kurze englische Beschreibung.

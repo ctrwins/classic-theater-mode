@@ -8,22 +8,11 @@ Classic Watch Layout
 
 ## Kurzbeschreibung
 
-Stellt die klassische YouTube-Videoansicht und Kinomodus-Auswahl wieder her. Ohne Tracking.
+A small extension that restores the classic theater mode for affected YouTube accounts.
 
 ## Beschreibung
 
-Classic Watch Layout aktiviert die in YouTube noch vorhandene klassische Videoansicht. Die Erweiterung richtet sich an Desktop-Nutzer, bei denen eine neue Layoutvariante die gewohnte Ansicht oder Kinomodus-Auswahl verändert hat.
-
-- Wirkt automatisch auf www.youtube.com, ohne Popup oder zusätzliche Einrichtung.
-- Ändert nur ausgewählte Layout-Einstellungen im Speicher der geöffneten Seite.
-- Keine Kontozugriffe, Cookies, Speicherung von Nutzungsdaten oder Tracking.
-- Keine eigenen Netzwerkverbindungen und kein nachgeladener Programmcode.
-
-Nach der Installation bereits geöffnete YouTube-Tabs neu laden. Zum Rückgängigmachen die Erweiterung deaktivieren oder entfernen und YouTube erneut laden.
-
-Die Erweiterung setzt voraus, dass YouTube die klassischen Ansichtskomponenten weiterhin bereitstellt. Je nach Konto und YouTube-Version kann die Wirkung abweichen. Vollbild und automatische Wiedergabe werden nicht erzwungen.
-
-Unabhängiges Projekt, nicht mit YouTube oder Google verbunden.
+A small extension that restores the classic theater mode for affected YouTube accounts.
 
 ## Angaben zum Zweck und zu Berechtigungen
 
@@ -41,13 +30,22 @@ Unabhängiges Projekt, nicht mit YouTube oder Google verbunden.
 
 - Projekt: https://github.com/ctrwins/classic-watch-layout
 - Support: https://github.com/ctrwins/classic-watch-layout/issues
-- Datenschutzentwurf: https://github.com/ctrwins/classic-watch-layout/blob/main/docs/privacy.md
+- Datenschutz: https://github.com/ctrwins/classic-watch-layout/blob/main/docs/privacy.md
+- Kontakt: ctrwins@googlemail.com
+- [Dashboard-Anleitung mit allen Einträgen](store-setup.md)
 
 ## Vor der Einreichung ergänzen
 
-- Verantwortliche Kontaktadresse in der Datenschutzerklärung und im Entwickler-Dashboard.
-- Erweiterungsicon, Store-Screenshots und Werbegrafik gemäß der aktuellen [Store-Checkliste](store-release.md).
+- Kontaktadresse `ctrwins@googlemail.com` im Entwickler-Dashboard eintragen und gegebenenfalls verifizieren; sie ist bereits in der Datenschutzerklärung enthalten.
 - Abschließende Verträglichkeitstests und Prüfung des Upload-Pakets.
-- Entwicklerkonto, erforderliche Kontoverifizierung und Registrierungsgebühr.
+- Etwaige noch offene Kontoverifizierung und 2FA-Anforderung im Dashboard prüfen. Entwicklerkonto und Registrierungsgebühr sind erledigt.
+
+## Grafiken für das Listing
+
+- Icon: `extension/icons/icon-128.png` (128×128, transparenter Rand).
+- Screenshot: `assets/store/screenshot-1280x800.png` (1280×800, ohne Transparenz).
+- Kleine Werbegrafik: `assets/store/promo-440x280.png` (440×280, ohne Transparenz).
+
+Screenshot und Werbegrafik werden separat im Dashboard hochgeladen, nicht mit dem Erweiterungspaket. Details: [Store-Checkliste](store-release.md).
 
 Die öffentliche Sichtbarkeit des Quellcodes ersetzt keine Lizenzentscheidung und keine Prüfung durch den Chrome Web Store.

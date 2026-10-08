@@ -2,6 +2,8 @@
 
 A small extension that restores the classic theater mode for affected YouTube accounts.
 
+![Classic YouTube theater mode restored by Classic Watch Layout](assets/store/screenshot-1280x800.png)
+
 ## Installation
 
 **Chrome Web Store: not available yet.** A direct installation link will be added here once the extension is published.

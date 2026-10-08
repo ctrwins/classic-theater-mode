@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- Renamed the extension to **Classic Theater Mode for YouTube**.
+- Updated the README, privacy policy, store instructions and promotional images.
+- Updated the packaged downloads; layout behavior and permissions are unchanged.
+
 ## 0.1.0
 
 - Klassische YouTube-Watch-Auswahl über fünf gezielte Layoutflags.

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Classic Watch Layout",
-  "version": "0.1.0",
+  "name": "Classic Theater Mode for YouTube",
+  "version": "0.1.1",
   "minimum_chrome_version": "111",
   "description": "A small extension that restores the classic theater mode for affected YouTube accounts.",
   "icons": {

@@ -1,10 +1,10 @@
 # Beschreibung für den Chrome Web Store
 
-Entwurf für Version 0.1.0. Noch nicht eingereicht.
+Entwurf für Version 0.1.1. Noch nicht eingereicht.
 
 ## Name
 
-Classic Watch Layout
+Classic Theater Mode for YouTube
 
 ## Kurzbeschreibung
 

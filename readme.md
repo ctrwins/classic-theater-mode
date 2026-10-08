@@ -1,8 +1,8 @@
-# Classic Watch Layout
+# Classic Theater Mode for YouTube
 
 A small extension that restores the classic theater mode for affected YouTube accounts.
 
-![Classic YouTube theater mode restored by Classic Watch Layout](assets/store/screenshot-1280x800.png)
+![Classic YouTube theater mode restored by Classic Theater Mode for YouTube](assets/store/screenshot-1280x800.png)
 
 ## Installation
 
@@ -10,7 +10,7 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ### Alternative: manual installation
 
-[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.0/classic-watch-layout-0.1.0.zip)
+[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.1/classic-theater-mode-for-youtube-0.1.1.zip)
 
 1. Download and extract the ZIP file.
 2. Open `chrome://extensions` or `brave://extensions`, enable **Developer mode**, and click **Load unpacked**.

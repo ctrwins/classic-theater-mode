@@ -1,4 +1,4 @@
-/* Classic Watch Layout — local, page-lifetime layout selection only. */
+/* Classic Theater Mode for YouTube — local, page-lifetime layout selection only. */
 (() => {
   'use strict';
 

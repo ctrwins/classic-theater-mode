@@ -40,5 +40,5 @@ Die Einreichung unterliegt Googles Prüfung. Die Einhaltung der [Developer Progr
 1. Etwaige offene Kontoverifizierung und 2FA-Anforderung prüfen; Konto und Registrierungsgebühr sind erledigt.
 2. Die [Datenschutzerklärung](https://github.com/ctrwins/classic-watch-layout/blob/main/docs/privacy.md) im Dashboard verlinken. Kontaktadresse: `ctrwins@googlemail.com`; im Entwicklerkonto eintragen und gegebenenfalls verifizieren.
 3. Die vorbereiteten Grafiken im Store-Listing hochladen.
-4. Das geprüfte Erweiterungs-ZIP aus `dist/classic-watch-layout-0.1.0.zip` hochladen. Nur Erweiterungsdateien sind darin enthalten, mit Manifest im Root. Abschließende Verträglichkeitstests stehen noch aus.
+4. Das geprüfte Erweiterungs-ZIP aus `dist/classic-theater-mode-for-youtube-0.1.1.zip` im bestehenden Store-Eintrag als neues Paket hochladen. Nur Erweiterungsdateien sind darin enthalten, mit Manifest im Root. Abschließende Verträglichkeitstests stehen noch aus.
 5. Zweck, MAIN-Welt, YouTube-Zugriff und Datennutzung im Dashboard erläutern. Textvorlage: [Store-Beschreibung](store-listing.md).

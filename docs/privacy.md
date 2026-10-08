@@ -1,10 +1,10 @@
-# Datenschutzerklärung – Classic Watch Layout
+# Datenschutzerklärung – Classic Theater Mode for YouTube
 
-**Stand: 08.10.2026 · Version 0.1.0**
+**Stand: 08.10.2026 · Version 0.1.1**
 
 ## Kurzfassung
 
-Classic Watch Layout korrigiert ausgewählte YouTube-Layoutflags lokal, damit die klassische Watch-Layout-/Theater-Auswahl wieder verwendet werden kann. Die Erweiterung verarbeitet keine Kontodaten und sendet keine Daten an den Entwickler oder an Dritte.
+Classic Theater Mode for YouTube korrigiert ausgewählte YouTube-Layoutflags lokal, damit die klassische Watch-Layout-/Theater-Auswahl wieder verwendet werden kann. Die Erweiterung verarbeitet keine Kontodaten und sendet keine Daten an den Entwickler oder an Dritte.
 
 ## Welche Daten werden verarbeitet?
 
@@ -37,4 +37,4 @@ Die Angaben im Entwickler-Dashboard müssen mit dem veröffentlichten Paket übe
 
 ## English summary
 
-Classic Watch Layout locally adjusts selected YouTube layout flags to restore the classic watch/theater layout. It does **not** collect, store, sell, or share personal data; it does not read or write cookies; it has no analytics, tracking, advertising, remote scripts, or external network requests. The only required site access is `https://www.youtube.com/*`, used to run the MV3 content script at document start. The script changes layout configuration locally and does not transmit page, account, or viewing data. Privacy and support contact: ctrwins@googlemail.com. If you contact support by email, the information you voluntarily provide is used to respond to your request, separately from the extension. YouTube, GitHub and the email provider have their own data practices.
+Classic Theater Mode for YouTube locally adjusts selected YouTube layout flags to restore the classic watch/theater layout. It does **not** collect, store, sell, or share personal data; it does not read or write cookies; it has no analytics, tracking, advertising, remote scripts, or external network requests. The only required site access is `https://www.youtube.com/*`, used to run the MV3 content script at document start. The script changes layout configuration locally and does not transmit page, account, or viewing data. Privacy and support contact: ctrwins@googlemail.com. If you contact support by email, the information you voluntarily provide is used to respond to your request, separately from the extension. YouTube, GitHub and the email provider have their own data practices.

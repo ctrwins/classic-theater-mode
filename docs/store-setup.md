@@ -11,9 +11,11 @@ Stand: 08.10.2026. Die Erweiterung ist noch nicht im Store veröffentlicht. Entw
 - Falls noch nicht verifiziert: **Add email / Verify email** wählen und den Bestätigungslink in der E-Mail öffnen.
 - Eventuelle Hinweise zu Kontoverifizierung, Zwei-Faktor-Anmeldung oder Händlerstatus wahrheitsgemäß selbst bearbeiten. Die Registrierung allein bestätigt nicht, dass alle diese Punkte abgeschlossen sind.
 
-## 2. Neues Element / Add new item
+## 2. Paket hochladen
 
-[Erweiterungs-ZIP herunterladen](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.0/classic-watch-layout-0.1.0.zip) und unverändert hochladen.
+[Erweiterungs-ZIP herunterladen](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.1/classic-theater-mode-for-youtube-0.1.1.zip) und unverändert hochladen.
+
+Im bereits angelegten Store-Eintrag **Paket → Neues Paket hochladen** wählen. Name und Version werden aus dem Manifest übernommen. Keinen zweiten Eintrag für die Umbenennung anlegen. Nur bei der erstmaligen Einrichtung **Add new item** verwenden.
 
 Nicht das GitHub-Quellcodearchiv oder das Bilder-ZIP hochladen. Das richtige Paket enthält `manifest.json` direkt im Root.
 
@@ -21,7 +23,7 @@ Nicht das GitHub-Quellcodearchiv oder das Bilder-ZIP hochladen. Das richtige Pak
 
 | Feld | Eintrag |
 |---|---|
-| Name | `Classic Watch Layout` (aus dem Manifest) |
+| Name | `Classic Theater Mode for YouTube` (aus dem Manifest) |
 | Kurzbeschreibung | Aus dem Manifest; siehe unten |
 | Beschreibung / Detailed description | Den unten stehenden Satz kopieren |
 | Sprache / Language | English |
@@ -35,7 +37,7 @@ Nicht das GitHub-Quellcodearchiv oder das Bilder-ZIP hochladen. Das richtige Pak
 
 > A small extension that restores the classic theater mode for affected YouTube accounts.
 
-[Store-Bilder herunterladen](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.0/classic-watch-layout-store-assets.zip), entpacken und einzeln zuordnen:
+[Store-Bilder herunterladen](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.1/classic-theater-mode-for-youtube-store-assets-0.1.1.zip), entpacken und einzeln zuordnen. Bereits hochgeladene Bilder mit dem alten Namen ersetzen:
 
 | Bildfeld | Datei |
 |---|---|

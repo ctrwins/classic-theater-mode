@@ -6,7 +6,7 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ## Installation
 
-**Chrome Web Store: not available yet.** A direct installation link will be added here once the extension is published.
+**[Chrome Web Store](https://chromewebstore.google.com/detail/classic-theater-mode-for/bingnglpbpnfiknkbcfnnjicjckkfffk?authuser=0&hl=de)**
 
 ### Alternative: manual installation
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64" role="img" aria-labelledby="title desc">
+  <title id="title">Install from the Chrome Web Store</title>
+  <desc id="desc">Open the Chrome Web Store listing to install Classic Theater Mode for YouTube.</desc>
+  <rect x="0.5" y="0.5" width="319" height="63" rx="10" fill="#1558D6" stroke="#1048B5"/>
+  <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 20v20m-7-7 7 7 7-7M19 43v5h20v-5"/>
+    <path d="m294 27 5 5-5 5"/>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="25" font-size="12" font-weight="bold" letter-spacing="0.8">INSTALL EXTENSION</text>
+    <text x="58" y="47" font-size="21" font-weight="bold">Chrome Web Store</text>
+  </g>
+</svg>

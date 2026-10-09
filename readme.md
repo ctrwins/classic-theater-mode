@@ -4,9 +4,11 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ## Installation
 
+**Recommended:** install directly from the Chrome Web Store. No Developer mode or ZIP download needed.
+
 [![Install from the Chrome Web Store](assets/install-store.svg)](https://chromewebstore.google.com/detail/classic-theater-mode-for/bingnglpbpnfiknkbcfnnjicjckkfffk)
 
-**Recommended:** install directly from the Chrome Web Store. No Developer mode or ZIP download needed.
+
 
 ![Classic YouTube theater mode restored by Classic Theater Mode for YouTube](assets/store/screenshot-1280x800.png)
 

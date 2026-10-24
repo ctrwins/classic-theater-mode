@@ -1,3 +1,4 @@
+
 # Classic Theater Mode for YouTube
 
 A small extension that restores the classic theater mode for affected YouTube accounts.
@@ -24,7 +25,7 @@ To undo the changes, disable or remove the extension and reload YouTube.
 
 ## Contact
 
-[Report an issue](https://github.com/ctrwins/classic-watch-layout/issues) · [Email](mailto:ctrwins@googlemail.com) · [Privacy policy](docs/privacy.md)
+☕ [Support me with a coffee](https://buymeacoffee.com/ctr68) · [Report an issue](https://github.com/ctrwins/classic-watch-layout/issues) · [Email](mailto:ctrwins@googlemail.com) · [Privacy policy](docs/privacy.md)
 
 Not affiliated with YouTube or Google. Results may vary depending on your account and YouTube's current layout.
 

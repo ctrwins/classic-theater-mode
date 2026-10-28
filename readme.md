@@ -1,7 +1,9 @@
 
 # Classic Theater Mode for YouTube
 
-A small extension that restores the classic theater mode for affected YouTube accounts.
+Restores the classic YouTube theater mode and remembers your preferred view.
+
+Choose normal or theater mode once using the player button or **T**. Your choice is saved locally and restored when you reload YouTube, reopen your browser or switch videos. Fullscreen does not overwrite it; no preference data is transmitted.
 
 ## Installation
 
@@ -15,7 +17,7 @@ A small extension that restores the classic theater mode for affected YouTube ac
 
 ### Alternative: manual installation
 
-[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-watch-layout/releases/download/v0.1.2/classic-theater-mode-for-youtube-0.1.2.zip)
+[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-theater-mode/releases/download/v0.1.3/classic-theater-mode-for-youtube-0.1.3.zip)
 
 1. Download and extract the ZIP file.
 2. Open `chrome://extensions` or `brave://extensions`, enable **Developer mode**, and click **Load unpacked**.

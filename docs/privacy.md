@@ -1,6 +1,6 @@
 # Privacy Policy — Classic Theater Mode for YouTube
 
-Last updated: October 8, 2026.
+Last updated: October 28, 2026.
 
 ## Data handled by the extension
 
@@ -8,11 +8,11 @@ Classic Theater Mode for YouTube adjusts YouTube's layout settings locally in yo
 
 ## Site access and local operation
 
-Access is limited to top-level pages on `https://www.youtube.com/*`. The extension changes layout configuration in the page's JavaScript context before the page initializes. These settings remain in the page's memory; no usage record is created or sent to the publisher. All executable code is included in the extension package; no remote scripts are downloaded.
+Access is limited to top-level pages on `https://www.youtube.com/*`. The extension changes layout configuration in the page's JavaScript context before the page initializes. These layout flags remain in the page's memory. A separate isolated content script remembers your explicit choice of normal or theater mode as one boolean setting in the browser's local extension storage. The `storage` permission is used only for this setting; it is not synced to an online account. No video identifiers, URLs or usage history are stored or sent to the publisher. All executable code is included in the extension package; no remote scripts are downloaded.
 
 ## Retention and removal
 
-The extension stores no user data, so there is no extension-related server-side retention or deletion process. Disable or uninstall the extension and reload YouTube to stop its changes.
+The view preference remains locally until changed or the extension is uninstalled. No data is stored on a publisher server. Disabling the extension and reloading YouTube stops its changes but retains the preference; uninstalling the extension also removes its local setting.
 
 ## Email support
 

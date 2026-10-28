@@ -100,16 +100,24 @@ test('serialization remains valid and no prototype APIs are modified', () => {
   assert.equal(Object.getOwnPropertyDescriptor(flags, 'kevlar_watch_grid').configurable, true);
 });
 
-test('manifest grants only a top-frame YouTube document-start script, no APIs', () => {
+test('manifest isolates local storage from the MAIN-world layout script', () => {
   const manifest = JSON.parse(fs.readFileSync(new URL('../extension/manifest.json', import.meta.url)));
   assert.equal(manifest.manifest_version, 3);
-  assert.equal(manifest.content_scripts.length, 1);
+  assert.equal(manifest.content_scripts.length, 2);
   const script = manifest.content_scripts[0];
   assert.deepEqual(script.matches, ['https://www.youtube.com/*']);
   assert.equal(script.run_at, 'document_start');
   assert.equal(script.world, 'MAIN');
   assert.equal(script.all_frames, false);
-  for (const name of ['permissions', 'host_permissions', 'background', 'web_accessible_resources', 'externally_connectable']) {
+  assert.deepEqual(manifest.permissions, ['storage']);
+  assert.deepEqual(script.js, ['restore.js']);
+  const preference = manifest.content_scripts[1];
+  assert.deepEqual(preference.matches, ['https://www.youtube.com/*']);
+  assert.deepEqual(preference.js, ['view-preference.js']);
+  assert.equal(preference.world, 'ISOLATED');
+  assert.equal(preference.run_at, 'document_idle');
+  assert.equal(preference.all_frames, false);
+  for (const name of ['host_permissions', 'background', 'web_accessible_resources', 'externally_connectable']) {
     assert.equal(manifest[name], undefined, name);
   }
 });

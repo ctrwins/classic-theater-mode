@@ -1,20 +1,28 @@
 {
   "manifest_version": 3,
   "name": "Classic Theater Mode for YouTube",
-  "version": "0.1.2",
+  "version": "0.1.3",
+
   "minimum_chrome_version": "111",
-  "description": "A small extension that restores the classic theater mode for affected YouTube accounts.",
+  "description": "Restores the classic YouTube theater mode and remembers your preferred view.",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
   },
+  "permissions": ["storage"],
   "content_scripts": [{
     "matches": ["https://www.youtube.com/*"],
     "js": ["restore.js"],
     "run_at": "document_start",
     "world": "MAIN",
+    "all_frames": false
+  }, {
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["view-preference.js"],
+    "run_at": "document_idle",
+    "world": "ISOLATED",
     "all_frames": false
   }]
 }

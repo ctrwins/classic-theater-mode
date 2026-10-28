@@ -5,6 +5,8 @@ Restores the classic YouTube theater mode and remembers your preferred view.
 
 Choose normal or theater mode once using the player button or **T**. Your choice is saved locally and restored when you reload YouTube, reopen your browser or switch videos. Fullscreen does not overwrite it; no preference data is transmitted.
 
+[Changelog](changelog.md)
+
 ## Installation
 
 **Recommended:** install directly from the Chrome Web Store. No Developer mode or ZIP download needed.

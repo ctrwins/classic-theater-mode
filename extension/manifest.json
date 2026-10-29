@@ -1,9 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Classic Theater Mode for YouTube",
-  "version": "0.1.3",
-
-  "minimum_chrome_version": "111",
+  "version": "0.1.4",
   "description": "Restores the classic YouTube theater mode and remembers your preferred view.",
   "icons": {
     "16": "icons/icon-16.png",

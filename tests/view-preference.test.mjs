@@ -51,7 +51,13 @@ function boot(store = {}, options = {}) {
     set: async values => { writes.push({ ...values }); Object.assign(store, values); },
   };
   const context = vm.createContext({
-    document, location, chrome: { storage: { local: storage } }, queueMicrotask,
+    document, location,
+    ...(options.firefox ? {
+      browser: { storage: { local: storage } },
+      // Firefox also exposes a chrome namespace; prefer its native Promise API.
+      chrome: { storage: { local: { get() { throw new Error('callback-only chrome API'); } } } },
+    } : { chrome: { storage: { local: storage } } }),
+    queueMicrotask,
     MutationObserver: class { constructor(callback) { this.callback = callback; } observe() { observers.add(this); } disconnect() { observers.delete(this); } },
     setTimeout: (fn, delay = 0) => { const id = ++timerId; timers.set(id, { fn, at: clock + delay }); return id; },
     clearTimeout: id => timers.delete(id),
@@ -76,6 +82,20 @@ function boot(store = {}, options = {}) {
     },
   };
 }
+
+test('Firefox restores and saves through the native browser Promise API', async () => {
+  const store = { [key]: true };
+  const page = boot(store, { firefox: true });
+  await flush();
+  assert.equal(page.theater, true);
+  assert.deepEqual(page.writes, []);
+  page.button.click(true);
+  await flush();
+  assert.equal(store[key], false);
+  const next = boot(store, { firefox: true, theater: true });
+  await flush();
+  assert.equal(next.theater, false);
+});
 
 test('restores a saved theater preference on a fresh page without rewriting storage', async () => {
   const page = boot({ [key]: true });

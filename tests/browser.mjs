@@ -15,7 +15,7 @@ try {
     executablePath,
     headless: true,
     ignoreDefaultArgs: ['--disable-extensions'],
-    args: [`--disable-extensions-except=${path.join(root, 'extension')}`, `--load-extension=${path.join(root, 'extension')}`],
+    args: [`--disable-extensions-except=${path.join(root, 'dist/chromium')}`, `--load-extension=${path.join(root, 'dist/chromium')}`],
   });
   evidence.browserVersion = context.browser()?.version();
   await context.route('**/*', route => {

@@ -1,7 +1,7 @@
 
 # Classic Theater Mode for YouTube
 
-Restores the classic YouTube theater mode and remembers your preferred view.
+Restores the classic YouTube theater mode and remembers your preferred view in Chrome, Brave and Firefox.
 
 Choose normal or theater mode once using the player button or **T**. Your choice is saved locally and restored when you reload YouTube, reopen your browser or switch videos. Fullscreen does not overwrite it; no preference data is transmitted.
 
@@ -9,21 +9,30 @@ Choose normal or theater mode once using the player button or **T**. Your choice
 
 ## Installation
 
-**Recommended:** install directly from the Chrome Web Store. No Developer mode or ZIP download needed.
+**Recommended:** use the store link for your browser. No Developer mode or ZIP download needed.
 
 [![Install from the Chrome Web Store](assets/install-store.svg)](https://chromewebstore.google.com/detail/classic-theater-mode-for/bingnglpbpnfiknkbcfnnjicjckkfffk)
-
-
+[![Install from Firefox Add-ons](assets/install-firefox.svg)](https://addons.mozilla.org/de/firefox/addon/classic-theater-mode/)
 
 ![Classic YouTube theater mode restored by Classic Theater Mode for YouTube](assets/store/screenshot-1280x800.png)
 
-### Alternative: manual installation
+### Alternative: manual Chrome / Brave installation
 
-[![Download ZIP](assets/download.svg)](https://github.com/ctrwins/classic-theater-mode/releases/download/v0.1.3/classic-theater-mode-for-youtube-0.1.3.zip)
+[![Download Chrome / Brave ZIP](assets/download.svg)](https://github.com/ctrwins/classic-theater-mode/releases/download/v0.1.4/classic-theater-mode-for-youtube-chromium-0.1.4.zip)
 
 1. Download and extract the ZIP file.
 2. Open `chrome://extensions` or `brave://extensions`, enable **Developer mode**, and click **Load unpacked**.
 3. Select the extracted folder containing `manifest.json`, then reload YouTube.
+
+### Alternative: manual Firefox installation
+
+[![Download Firefox ZIP](assets/download.svg)](https://github.com/ctrwins/classic-theater-mode/releases/download/v0.1.4/classic-theater-mode-for-youtube-firefox-0.1.4.zip)
+
+1. Download and extract the Firefox ZIP. Requires Firefox Desktop 140 or newer.
+2. Open `about:debugging#/runtime/this-firefox` and click **Load Temporary Add-on**.
+3. Select the extracted `manifest.json`, then reload YouTube.
+
+**Temporary installation:** the unsigned ZIP is loaded only until Firefox restarts. Use the Firefox Add-ons button above for a normal, signed installation with automatic updates. Android is not part of this release's tested scope.
 
 To undo the changes, disable or remove the extension and reload YouTube.
 

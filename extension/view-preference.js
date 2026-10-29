@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const key = 'classicTheaterMode';
+  const storage = (typeof browser !== 'undefined' ? browser : chrome).storage.local;
   let desired;
   let loaded = false;
   let pending;
@@ -34,7 +35,7 @@
     const value = desired;
     forgetPending();
     // Serialize rapid choices so the last user action wins on disk too.
-    writes = writes.then(() => chrome.storage.local.set({ [key]: value })).catch(() => {});
+    writes = writes.then(() => storage.set({ [key]: value })).catch(() => {});
   }
 
   function reconcile() {
@@ -103,7 +104,7 @@
     attributeFilter: ['theater', 'fullscreen', 'hidden'],
   });
   document.addEventListener('fullscreenchange', schedule);
-  chrome.storage.local.get(key).then(values => {
+  storage.get(key).then(values => {
     if (!userInteracted && typeof values[key] === 'boolean') desired = values[key];
   }).catch(() => {}).finally(() => { loaded = true; schedule(); });
 })();
